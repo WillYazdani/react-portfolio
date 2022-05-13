@@ -2,21 +2,42 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 10px;
-    background-color: black;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
 }
 
 #navbar li {
     list-style: none;
-    padding-left: 10px;
     font-size: 1.5rem;
+    background: white;
 }
 
 #navbar li a {
-    color: white;
+    color: black;
+    background: white;
+    font-weight: bold;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
-#home {
-    align-self: flex-start;
+#navbar li a:hover {
+    color: #b2dfdb;
+}
+
+#navhome {
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+#contact{
+    padding-left: 15px;
+}
+
+#about {
+    padding-left: 15px;
+}
+
+#resume {
+    padding-left: 15px;
 }
