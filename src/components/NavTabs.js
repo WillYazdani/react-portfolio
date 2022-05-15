@@ -6,10 +6,10 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs" id="navbar">
       <li className="nav-item" id="navhome">
         <a
-          href="#home"
+          href="#folio"
           id="home"
-          onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange('Folio')}
+          className={currentPage === 'Folio' ? 'nav-link active' : 'nav-link'}
         >
           WILL YAZDANI
         </a>
@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Folio')}
           className={currentPage === 'Folio' ? 'nav-link active' : 'nav-link'}
         >
-          FOLIO
+          PROJECTS
         </a>
       </li>
       <li className="nav-item">
@@ -42,16 +42,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           CONTACT
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          id="resume"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          RESUME
         </a>
       </li>
     </ul>

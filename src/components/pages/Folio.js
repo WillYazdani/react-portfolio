@@ -1,19 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from '../Modal'
 import '../../components/CSS/folio.css';
 
 export default function Folio() {
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div id="wrapper">
       <div id="projects">
-        <h2>
-          <a href="#">DATELIME</a>
-        </h2>
-        <h2>
-        <a href="#">FULLSTACK JACK</a>
-        </h2>
-        <h2>
-        <a href="#">PROJECT</a>
-        </h2>
+        <button onClick={() => setIsOpen(true)}>
+          DATELIME
+        </button>
+          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+           DateLime
+          </Modal>
+        <button onClick={() => setIsOpen(true)}>
+        FULLSTACK JACK
+        </button>
+          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+           FullStack Jack
+          </Modal>
+        <button onClick={() => setIsOpen(true)}>
+        TBD
+        </button>
+          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+           TBD
+          </Modal>
       </div>
     </div>
   );

@@ -1,0 +1,13 @@
+#contact-wrapper {
+    height: 800px;
+    display: inline-block;
+    padding: 15px;
+}
+
+button {
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+}
+

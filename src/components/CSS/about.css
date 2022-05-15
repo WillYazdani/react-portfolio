@@ -1,6 +1,7 @@
 #about-wrapper {
-    margin: 15px;
+    padding: 15px;
     display: block;
+    height: 800px;
 }
 
 #about-me {

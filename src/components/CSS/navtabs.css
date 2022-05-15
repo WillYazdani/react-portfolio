@@ -1,20 +1,19 @@
 #navbar {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 15px;
-    background-color: white;
+    background-image: linear-gradient(black, rgb(70, 70, 70));
     margin: 0;
+    height: 100px;
 }
 
 #navbar li {
     list-style: none;
     font-size: 1.5rem;
-    background: white;
 }
 
 #navbar li a {
-    color: black;
-    background: white;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s ease 0s;

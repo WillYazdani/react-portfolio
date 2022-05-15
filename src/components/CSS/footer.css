@@ -1,8 +1,4 @@
 #footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    background-image: linear-gradient(rgb(70, 70, 70), black);
     height: 100px;
-    background-color: white;
 }
