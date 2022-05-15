@@ -1,0 +1,21 @@
+#wrapper {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+#projects h2 a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+#projects h2 a:hover {
+    color: #b2dfdb;;
+}

@@ -1,0 +1,13 @@
+#about-wrapper {
+    margin: 15px;
+    display: block;
+}
+
+#about-me {
+    display: flex;
+}
+
+#me {
+    width: 500px;
+    margin-right: 15px;
+}

@@ -1,10 +1,9 @@
 #navbar {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
     padding: 15px;
     background-color: white;
+    margin: 0;
 }
 
 #navbar li {
@@ -31,13 +30,13 @@
 }
 
 #contact{
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 #about {
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 #resume {
-    padding-left: 15px;
+    padding-left: 30px;
 }
