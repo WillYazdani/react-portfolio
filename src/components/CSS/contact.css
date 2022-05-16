@@ -1,7 +1,31 @@
 #contact-wrapper {
     height: 800px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 250%;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    color: #b2dfdb;
 }
 
 button {
@@ -9,5 +33,41 @@ button {
     color: white;
     border: 1px solid white;
     font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: #b2dfdb;
+}
+
+input {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+textarea {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
