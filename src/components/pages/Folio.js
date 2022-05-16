@@ -23,7 +23,7 @@ export default function Folio() {
            <img src={datelime} alt="datelime" id="datelime" />
            <p>Role: Front End Developer
             <br></br>
-            Technologies: HTML, CSS, JavaScript
+            Technologies: HTML, CSS, Bulma, JavaScript
             <br></br>
             This is an app that pairs movies and recipes based on the user!
            </p>
@@ -46,25 +46,25 @@ export default function Folio() {
            <a href="https://young-atoll-21457.herokuapp.com/">LIVE</a>
           </Modal>
         <button onClick={() => setIsOpen3(true)}>
-        TBD
+        PASSGEN
         </button>
           <Modal open={isOpen3} onClose={() => setIsOpen3(false)}>
            TBD
           </Modal>
-        <button onClick={() => setIsOpen3(true)}>
-        TBD
+        <button onClick={() => setIsOpen4(true)}>
+        CODE QUIZ
         </button>
           <Modal open={isOpen4} onClose={() => setIsOpen4(false)}>
            TBD
           </Modal>
-        <button onClick={() => setIsOpen3(true)}>
-        TBD
+        <button onClick={() => setIsOpen5(true)}>
+        RUN BUDDY
         </button>
           <Modal open={isOpen5} onClose={() => setIsOpen5(false)}>
            TBD
           </Modal>
-        <button onClick={() => setIsOpen3(true)}>
-        TBD
+        <button onClick={() => setIsOpen6(true)}>
+        SOCIAL API
         </button>
           <Modal open={isOpen6} onClose={() => setIsOpen6(false)}>
            TBD
