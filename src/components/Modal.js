@@ -1,7 +1,7 @@
 import React from 'react'
 import './CSS/modal.css'
 
-export default function modal({ open, children, onClose }) {
+export default function Modal({ open, children, onClose }) {
     if (!open) return null
 
   return (

@@ -1,7 +1,7 @@
 #modal-wrapper {
     position: fixed;
-    height: 50%;
-    width: 40%;
+    height: 60%;
+    width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #modal-overlay {
@@ -26,4 +27,8 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1000;
+}
+
+img {
+    width: 600px;
 }
