@@ -1,4 +1,11 @@
 #footer {
     background-image: linear-gradient(rgb(70, 70, 70), black);
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links {
+    padding: 50px;
 }
