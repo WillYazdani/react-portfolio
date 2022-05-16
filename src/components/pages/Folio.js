@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../Modal'
+
 import '../../components/CSS/folio.css';
 
 export default function Folio() {
