@@ -1,7 +1,7 @@
 ## React Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-https://willyazdani.github.io/react-portfolio/
+https://will-yazdani-portfolio.netlify.app/
 
 This is my professional portfolio, built with React.
 
