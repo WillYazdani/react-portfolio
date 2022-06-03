@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from '../Modal'
 import datelime from '../assets/dateLime.png'
 import fsj from "../assets/fsj.jpg"
+import mhc from '../assets/mhc.PNG'
 
 import '../../components/CSS/folio.css';
 
@@ -41,7 +42,22 @@ export default function Folio() {
            <a href="https://github.com/WillYazdani/full_stack_jack">GITHUB</a>
            <a href="https://young-atoll-21457.herokuapp.com/">LIVE</a>
           </Modal>
+          <button onClick={() => setIsOpen2(true)}>
+        MENTAL HEALTH CHECK
+        </button>
+          <Modal open={isOpen2} onClose={() => setIsOpen2(false)}>
+          <h1>FullStack Jack</h1>
+           <img src={mhc} alt="mhc" id="mhc" />
+           <p>Role: Front End Developer
+            <br></br>
+            Technologies: MERN Stack, JWT, GraphQL, Apollo, MUI
+            <br></br>
+            Assess your mental health and get results.
+           </p>
+           <a href="https://github.com/WillYazdani/mental-health-check">GITHUB</a>
+           <a href="https://mhcheck-dev.herokuapp.com/">LIVE</a>
+          </Modal>
       </div>
     </div>
   );
-}
+};
