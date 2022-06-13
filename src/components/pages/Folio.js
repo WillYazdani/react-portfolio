@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal'
 import datelime from '../assets/dateLime.png'
-import fsj from "../assets/fsj.jpg"
+import fsj from '../assets/fsj.jpg'
 import mhc from '../assets/mhc.PNG'
 
 import '../../components/CSS/folio.css';
@@ -9,6 +9,7 @@ import '../../components/CSS/folio.css';
 export default function Folio() {
   const [isOpen1, setIsOpen1] = useState(false)
   const [isOpen2, setIsOpen2] = useState(false)
+  const [isOpen3, setIsOpen3] = useState(false)
   return (
     <div id="wrapper">
       <div id="projects">
@@ -42,11 +43,11 @@ export default function Folio() {
            <a href="https://github.com/WillYazdani/full_stack_jack">GITHUB</a>
            <a href="https://young-atoll-21457.herokuapp.com/">LIVE</a>
           </Modal>
-          <button onClick={() => setIsOpen2(true)}>
+        <button onClick={() => setIsOpen3(true)}>
         MENTAL HEALTH CHECK
         </button>
-          <Modal open={isOpen2} onClose={() => setIsOpen2(false)}>
-          <h1>FullStack Jack</h1>
+          <Modal open={isOpen3} onClose={() => setIsOpen3(false)}>
+          <h1>Mental Health Check</h1>
            <img src={mhc} alt="mhc" id="mhc" />
            <p>Role: Front End Developer
             <br></br>
