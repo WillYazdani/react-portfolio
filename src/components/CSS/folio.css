@@ -24,3 +24,11 @@
 #projects button:hover {
     color: #b2dfdb;;
 }
+
+@media screen and (max-width: 800px) {
+    #projects {
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
