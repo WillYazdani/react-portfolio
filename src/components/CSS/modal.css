@@ -32,3 +32,13 @@
 img {
     width: 600px;
 }
+
+@media screen and (max-width: 800px) {
+    #modal-wrapper {
+        width: 80%;
+        height: 60%;
+    }
+    img {
+        width: 300px;
+    }
+}
