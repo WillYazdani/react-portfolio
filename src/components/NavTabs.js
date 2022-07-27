@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import '../components/CSS/navtabs.css';
 
 function NavTabs() {
