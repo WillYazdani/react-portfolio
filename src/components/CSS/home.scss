@@ -4,7 +4,6 @@
     overflow-x: hidden;
     perspective: 10px;
     scroll-snap-type: y proximity;
-    scroll-snap-align: start;
 }
 
 // HEADER
@@ -235,6 +234,9 @@ h3 {
 }
 
 @media screen and (max-width:500px) {
+    .parallax-wrapper {
+        scroll-snap-type: y mandatory;
+    }
     h3{
         font-size: 1.5rem;
     }
@@ -271,11 +273,10 @@ h3 {
     }
     .contact-card {
         flex-direction: row;
-        
+
     }
     .contact-card a {
         font-size: 1rem;
         padding: .5rem;
-    }
-    
+    }   
 }
