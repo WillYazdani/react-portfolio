@@ -120,6 +120,7 @@ h3 {
     text-decoration: none;
     color: white;
     font-size: 2rem;
+    padding: 2rem;
 }
 
 .contact-form {
@@ -168,4 +169,61 @@ h3 {
 
 .contact-form button {
     margin-top: 1rem;
+}
+
+@media screen and (max-width:900px) {
+    h3{
+        font-size: 2.5rem;
+    }
+    .logo {
+        width: 500px;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-card {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .project-card h4 {
+        font-size: 1.5rem;
+    }
+    .contact-wrapper {
+        font-size: 1rem;
+    }
+    .contact-form textarea {
+        height: 5rem;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    h3{
+        font-size: 2rem;
+    }
+    .logo {
+        width: 400px;
+    }
+    .about {
+        font-size: 1rem;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-card {
+        font-size: .75rem;
+        padding: 1rem;
+    }
+    .project-card h4 {
+        font-size: 1rem;
+    }
+    .contact-wrapper {
+        font-size: 1rem;
+    }
+    .contact-form textarea {
+        height: 4rem;
+    }
+    
 }
