@@ -46,9 +46,27 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                </div>
+                </div> 
+                <section className='contact-wrapper'>
+                <h3>03.Contact</h3>
+                    <div className='contact-container'>
+                        <div className='contact-card'>
+                            <a id="links" href="https://www.linkedin.com/in/will-yazdani/">LINKEDIN</a><br/>
+                            <a id="links" href="https://github.com/WillYazdani">GITHUB</a><br/>
+                            <a id="links" href="https://leetcode.com/willyazdani/">LEETCODE</a><br/>
+                        </div>    
+                        <form className='contact-form'>
+                            <label>Name</label>
+                            <input type='text' />
+                            <label>Email</label>
+                            <input type='text' />
+                            <label>Message</label>
+                            <textarea></textarea>
+                            <button type='submit'>Submit</button>
+                        </form>
+                    </div>    
+                </section> 
             </div>
-        </>
-        
+        </>   
     );
 };
