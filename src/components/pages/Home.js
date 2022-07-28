@@ -24,7 +24,7 @@ export default function Home() {
                             <div className='project-card'>
                                 <h4>Parallax Gallery</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Parallax Gallery is a simple gallery that uses parallax scrolling to create a 3D effect.
                                 </p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                             <div className='project-card'>
                                 <h4>FullStackJack</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Learn to play BlackJack with this fully functional online version.
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ export default function Home() {
                             <div className='project-card'>
                                 <h4>Mental Health Check</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    This app provides the user with a quick and easy way to evaluate their mental health and gives them resources to help their current situation.
                                 </p>
                             </div>
                         </div>
