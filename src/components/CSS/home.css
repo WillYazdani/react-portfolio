@@ -217,4 +217,53 @@ h3 {
   .contact-form textarea {
     height: 4rem;
   }
+  .contact-form {
+    width: 100%;
+  }
+  .contact-card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  .logo {
+    width: 300px;
+  }
+  .about {
+    font-size: 0.75rem;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+  .project-card h4 {
+    font-size: 1rem;
+  }
+  .contact-wrapper {
+    font-size: 0.75rem;
+  }
+  .contact-form textarea {
+    height: 2rem;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .contact-card {
+    flex-direction: row;
+  }
+  .contact-card a {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }/*# sourceMappingURL=home.css.map */
