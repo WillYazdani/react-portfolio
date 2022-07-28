@@ -15,7 +15,7 @@ export default function Home() {
                 </header>
                 <section className='about'>
                     <h3>01.About Me</h3>
-                    Hey there, my name is Will Yazdani. I'm a front-end developer based in Minnesota. I've always been interested in tech and art, so I naturally gravitated towards web design while in college. This curiosity lead me to find out my love for coding web pages. I'm also a photographer and I love to shoot and edit photos. Please take a look at my portfolio see some of my work.
+                    Hey there, my name is Will Yazdani. I'm a front-end developer based in Minnesota. I've always been interested in tech and art, so I naturally gravitated towards web design while in college. This curiosity lead me to find out my love for coding. I'm also a photographer and I love to shoot and edit photos. Please take a look at my portfolio see some of my work.
                 </section>
                 <div className='project-wrapper'>
                     <section className='projects'>
@@ -53,7 +53,7 @@ export default function Home() {
                         <div className='contact-card'>
                             <a id="links" href="https://www.linkedin.com/in/will-yazdani/">LINKEDIN</a><br/>
                             <a id="links" href="https://github.com/WillYazdani">GITHUB</a><br/>
-                            <a id="links" href="https://leetcode.com/willyazdani/">LEETCODE</a><br/>
+                            {/* <a id="links" href="https://leetcode.com/willyazdani/">LEETCODE</a><br/> */}
                         </div>    
                         <form className='contact-form'>
                             <label>Name</label>
