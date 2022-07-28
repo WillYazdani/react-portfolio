@@ -12,7 +12,6 @@ export default function Folio() {
   const [isOpen3, setIsOpen3] = useState(false)
   return (
     <div id="wrapper">
-      <h1>Projects</h1>
       <div id="projects">
         <button onClick={() => setIsOpen1(true)}>
           DATELIME

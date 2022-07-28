@@ -1,11 +1,11 @@
 #navbar {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding: 15px;
-    background-image: linear-gradient(black, rgb(70, 70, 70));
     margin: 0;
     height: 100px;
+    position: fixed;
+    z-index: 1000;
 }
 
 #navbar li {
@@ -24,7 +24,7 @@
 }
 
 #navhome {
-    margin-right: auto;
+    margin-right: 30px;
     padding-left: 0px;
 }
 
@@ -38,6 +38,12 @@
 
 #resume {
     padding-left: 30px;
+}
+
+.icon {
+    background: url('../assets/wy.svg');
+    background-size:100px 100px;
+    width: 100px;
 }
 
 @media screen and (max-width: 800px) {
