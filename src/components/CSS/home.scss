@@ -23,21 +23,12 @@ header {
 }
 
 .background {
-    transform: translateZ(-20px) scale(7);
-}
-
-.background,
-.foreground {
     position:absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
     z-index:-2;
-}
-
-.title {
-    font-size: 6rem;
-    font-weight: bold;
+    transform: translateZ(-20px) scale(7);
 }
 
 .logo {
@@ -45,6 +36,18 @@ header {
     position:absolute;
     z-index: -1;
     width: 800px;
+}
+
+.title {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
 }
 
 //ABOUT

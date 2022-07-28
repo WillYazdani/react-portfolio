@@ -10,20 +10,19 @@ export default function Home() {
                 <header>
                     <img src={bg} alt={bg} className='background' />
                     <img src={wy} alt={wy} className='logo' />
-                    <h1 className="title">
-                        Will Yazdani
-                    </h1>
+                    <h1 className="title">Will Yazdani</h1>
+                    <h2 className="subtitle">Web Developer. Designer. Photographer.</h2>
                 </header>
                 <section className='about'>
                     <h3>01.About Me</h3>
-                    Hey there! My name is Will Yazdani. I'm a front-end developer based in Minnesota. I enjoy designing creative and functional web apps. I specialize in HTML, CSS JavaScript, and React. I'm currently looking for a full-time remote position. Feel free to check out my work and contact me if you're interested in working together.
+                    Hey there, my name is Will Yazdani. I'm a front-end developer based in Minnesota. I've always been interested in tech and art, so I naturally gravitated towards web design while in college. This curiosity lead me to find out my love for coding web pages. I'm also a photographer and I love to shoot and edit photos. Please take a look at my portfolio see some of my work.
                 </section>
                 <div className='project-wrapper'>
                     <section className='projects'>
                         <h3>02.Projects</h3>
                         <div className='project-container'>
                             <div className='project-card'>
-                                <h4>Project 1</h4>
+                                <h4>Parallax Gallery</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </p>
@@ -31,7 +30,7 @@ export default function Home() {
                         </div>
                         <div className='project-container'>
                             <div className='project-card'>
-                                <h4>Project 2</h4>
+                                <h4>FullStackJack</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </p>
@@ -39,7 +38,7 @@ export default function Home() {
                         </div>
                         <div className='project-container'>
                             <div className='project-card'>
-                                <h4>Project 3</h4>
+                                <h4>Mental Health Check</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </p>
@@ -49,6 +48,7 @@ export default function Home() {
                 </div> 
                 <section className='contact-wrapper'>
                 <h3>03.Contact</h3>
+                I am currently seeking out front end development positions, either remote or in the Twin Cities area. Feel free to reach out with any offers, opportunities or if you just want to chat. - Will
                     <div className='contact-container'>
                         <div className='contact-card'>
                             <a id="links" href="https://www.linkedin.com/in/will-yazdani/">LINKEDIN</a><br/>
