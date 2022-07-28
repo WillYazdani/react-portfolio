@@ -1,4 +1,4 @@
-.home-wrapper {
+.parallax-wrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -18,7 +18,7 @@ header {
 }
 
 .background {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-30px) scale(5);
 }
 
 .logo {
@@ -43,8 +43,15 @@ header {
   font-weight: bold;
 }
 
-section {
+.about {
   font-size: 2rem;
   padding: 2rem;
   background: black;
+}
+
+.about h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=home.css.map */

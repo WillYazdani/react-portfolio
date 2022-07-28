@@ -5,7 +5,7 @@
     margin: 0;
     height: 100px;
     position: fixed;
-    z-index: 1000;
+    z-index: 100;
 }
 
 #navbar li {
@@ -17,6 +17,8 @@
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
 }
 
 #navbar li a:hover {
@@ -38,12 +40,6 @@
 
 #resume {
     padding-left: 30px;
-}
-
-.icon {
-    background: url('../assets/wy.svg');
-    background-size:100px 100px;
-    width: 100px;
 }
 
 @media screen and (max-width: 800px) {

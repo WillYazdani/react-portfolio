@@ -13,7 +13,8 @@ function NavTabs() {
             to="/"
             id="home"
           >
-            WILL YAZDANI
+            
+            HOME
           </Link>
         </li>
         <li className="nav-item">
