@@ -18,14 +18,7 @@ header {
 }
 
 .background {
-  transform: translateZ(-30px) scale(5);
-}
-
-.logo {
-  transform: translateZ(-5px) scale(1.5);
-  position: absolute;
-  z-index: -1;
-  width: 800px;
+  transform: translateZ(-20px) scale(10);
 }
 
 .background,
@@ -43,14 +36,46 @@ header {
   font-weight: bold;
 }
 
+.logo {
+  transform: translateZ(-5px) scale(1.5);
+  position: absolute;
+  z-index: -1;
+  width: 800px;
+}
+
 .about {
   font-size: 2rem;
   padding: 2rem;
-  background: black;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .about h3 {
   font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.projects {
+  padding: 2rem;
+}
+
+.projects h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.project-card h4 {
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 1rem;
