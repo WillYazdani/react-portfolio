@@ -3,8 +3,8 @@
   overflow-y: scroll;
   overflow-x: hidden;
   perspective: 10px;
-  -ms-scroll-snap-type: y proximity;
-      scroll-snap-type: y proximity;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
 }
 
 header {
@@ -224,10 +224,6 @@ h3 {
   }
 }
 @media screen and (max-width: 500px) {
-  .parallax-wrapper {
-    -ms-scroll-snap-type: y mandatory;
-        scroll-snap-type: y mandatory;
-  }
   h3 {
     font-size: 1.5rem;
   }
