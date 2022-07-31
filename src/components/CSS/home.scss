@@ -125,12 +125,10 @@ h3 {
 }
 
 .carousel__nav {
-    width: 100%;
     display: flex;
     justify-content: center;
-    position: absolute;
+    align-items: center;
     padding: 1rem;
-
 }
 
 .carousel__indicator {
@@ -140,6 +138,7 @@ h3 {
     height: 1rem;
     background: rgba(255, 255, 255, 0.5);
     margin: 1rem;
+    margin-top: .2rem;
 }
 
 .carousel__indicator.current-slide {
@@ -273,7 +272,9 @@ h3 {
     .contact-form textarea {
         height: 5rem;
     }
-    
+    .carousel {
+        height: 15rem;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -309,6 +310,9 @@ h3 {
     .contact-card {
         width: 100%;
     }
+    .carousel {
+        height: 15rem;
+    }   
     
 }
 
@@ -354,5 +358,20 @@ h3 {
     .contact-card a {
         font-size: 1rem;
         padding: .5rem;
-    }   
+    }
+    .carousel__button--left {
+        left:-4rem;
+    }
+    .carousel__button--right {
+        right:-4rem;
+    }
+    .carousel {
+        height: 10rem;
+    }
+    .carousel__indicator {
+        width: .5rem;
+        height: .5rem;
+        padding: .5rem
+    }
+
 }

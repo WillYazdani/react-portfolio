@@ -25,33 +25,34 @@ export default function Home() {
                     <p>Hey there, my name is Will Yazdani. I'm a front-end developer based in Minnesota. I've always been interested in tech and art, so I naturally gravitated towards web design while in college. This curiosity lead me to find out my love for coding. I'm also a photographer and I love to shoot and edit photos. Please take a look at my portfolio see some of my work.
                     </p>
                     <h3>Skills:</h3>
-                    <div className='carousel'>
-                        <button className='carousel__button carousel__button--left'>
-                            <img src={left} alt={left} className='carousel-button-left' />
-                        </button>
-                        <div className='carousel__track-container'>
-                            <ul className='carousel__track'>
-                                <li className='carousel__slide'>
-                                    <img src={html} alt={html} className='carousel__image' />
-                                </li>
-                                <li className='carousel__slide'>
-                                    <img src={css} alt={css} className='carousel__image' />
-                                </li>
-                                <li className='carousel__slide'>
-                                    <img src={js} alt={js} className='carousel__image' />
-                                </li>
-                            </ul>    
-                        </div>  
-                        <button className='carousel__button carousel__button--right'>
-                            <img src={right} alt={right} className='carousel-button-right' /> 
-                        </button>
-                        <div className='carousel__nav'>
-                            <button className='carousel__indicator current-slide' />
-                            <button className='carousel__indicator' />
-                            <button className='carousel__indicator' />
-                        </div> 
+                    <div className='carousel-wrapper'>
+                        <div className='carousel'>
+                            <button className='carousel__button carousel__button--left'>
+                                <img src={left} alt={left} className='carousel-button-left' />
+                            </button>
+                            <div className='carousel__track-container'>
+                                <ul className='carousel__track'>
+                                    <li className='carousel__slide'>
+                                        <img src={html} alt={html} className='carousel__image' />
+                                    </li>
+                                    <li className='carousel__slide'>
+                                        <img src={css} alt={css} className='carousel__image' />
+                                    </li>
+                                    <li className='carousel__slide'>
+                                        <img src={js} alt={js} className='carousel__image' />
+                                    </li>
+                                </ul>    
+                            </div>  
+                            <button className='carousel__button carousel__button--right'>
+                                <img src={right} alt={right} className='carousel-button-right' /> 
+                            </button>
+                            <div className='carousel__nav'>
+                                <button className='carousel__indicator current-slide' />
+                                <button className='carousel__indicator' />
+                                <button className='carousel__indicator' />
+                            </div> 
+                        </div>
                     </div>
-
                 </section>
                 {/* PROJECTS SECTION */}
                 <div className='project-wrapper'>
