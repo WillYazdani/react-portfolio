@@ -69,26 +69,30 @@ h3 {
 
 // IMG CAROUSEL
 
+.carousel-wrapper {
+    height: 33%;
+}
 
 .carousel {
     cursor: grab;
     overflow: hidden;
-    background: white;
+    height: 100%;
 }
 
 .inner-carousel {
     display: flex;
-    background: white;
     width: 100vw;
+    height: 100%;
 }
 
 .item {
-    height: 30rem;
+    height: 100%;
     min-width: 33%;
-    padding: 3rem;
-    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.5);
     border: 1px solid white;
     border-radius: 1rem;
+    margin: 0 .5rem;
 }
 
 .item img {
@@ -224,9 +228,6 @@ h3 {
     .contact-form textarea {
         height: 5rem;
     }
-    .carousel {
-        height: 15rem;
-    }
 }
 
 @media screen and (max-width:700px) {
@@ -261,10 +262,7 @@ h3 {
     }
     .contact-card {
         width: 100%;
-    }
-    .carousel {
-        height: 15rem;
-    }   
+    }  
     
 }
 
@@ -310,20 +308,6 @@ h3 {
     .contact-card a {
         font-size: 1rem;
         padding: .5rem;
-    }
-    .carousel__button--left {
-        left:-4rem;
-    }
-    .carousel__button--right {
-        right:-4rem;
-    }
-    .carousel {
-        height: 10rem;
-    }
-    .carousel__indicator {
-        width: .5rem;
-        height: .5rem;
-        padding: .5rem
     }
 
 }
