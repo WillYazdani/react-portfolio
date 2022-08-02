@@ -13,12 +13,12 @@ export default function Home() {
                     <img src={bg} alt={bg} className='background' />
                     <img src={wy} alt={wy} className='logo' />
                     <h1 className="title">Will Yazdani</h1>
-                    <h2 className="subtitle">Web Developer. Designer. Photographer.</h2>
+                    <h2 className="subtitle">Web Developer. UX/UI Designer.</h2>
                 </header>
                 {/* ABOUT SECTION */}
                 <section className='about'>
                     <h3>01.About Me</h3>
-                    <p>Hey there, my name is Will Yazdani. I'm a front-end developer based in Minnesota. I've always been interested in tech and art, so I naturally gravitated towards web design while in college. This curiosity lead me to find out my love for coding. I'm also a photographer and I love to shoot and edit photos. Please take a look at my portfolio see some of my work.
+                    <p>Hey there, my name is Will Yazdani. I'm a front-end developer based in Minnesota. I've always been interested in tech and art, so I naturally gravitated towards web design while in college. This curiosity lead me to find out my love for coding. Take a look at section 02 to see some of my work and feel free to contact me in section 03.
                     </p>
                     <h3>Skills:</h3>
                     <Carousel></Carousel>
