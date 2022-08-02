@@ -87,7 +87,6 @@ h3 {
   min-width: 33%;
   padding: 1rem;
   background: rgba(255, 255, 255, 0.7);
-  border: 2px solid white;
   border-radius: 1rem;
   margin: 0 0.5rem;
 }
@@ -109,6 +108,7 @@ h3 {
   padding: 2rem;
   margin-bottom: 1rem;
   background: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
 }
 
 .project-card h4 {
@@ -167,6 +167,7 @@ h3 {
   color: white;
   letter-spacing: 0.25rem;
   font-size: 1rem;
+  border-radius: 0.5rem;
 }
 
 .contact-form input {
@@ -176,6 +177,7 @@ h3 {
   letter-spacing: 0.25rem;
   font-size: 1rem;
   border: 1px solid white;
+  border-radius: 0.5rem;
 }
 
 .contact-form button {
@@ -187,6 +189,8 @@ h3 {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   letter-spacing: 0.25rem;
   transition: 0.4s;
+  cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .contact-form button:hover {

@@ -4,6 +4,7 @@ import js from '../assets/js.svg';
 import react from '../assets/react.svg';
 import sass from '../assets/sass.svg';
 import node from '../assets/node.svg';
+import git from '../assets/git.svg';
 import cc from '../assets/cc.svg';
 
-export default [html, css, js, react, sass, node, cc];
+export default [html, css, js, react, sass, node, git, cc];
