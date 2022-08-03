@@ -112,9 +112,9 @@ h3 {
   text-align: left;
   padding: 1rem;
   margin-bottom: 1rem;
-  font-family: roboto;
   letter-spacing: 0.25rem;
   cursor: pointer;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .project-title {
