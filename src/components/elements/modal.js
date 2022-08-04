@@ -31,6 +31,7 @@ export default function Modal({handleClose}){
                         // close modal on click
                         
                         onClick={handleClose}
+                        variants={slideOut}
                     >
                         Close
                     </motion.button>

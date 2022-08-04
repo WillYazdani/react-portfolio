@@ -63,7 +63,13 @@ export default function Home() {
                         Parallax Gallery is a simple gallery that uses parallax scrolling to create a 3D effect.
                         </p>
                     </motion.button>
-                    {modalOpen && <Modal modalOpen={modalOpen} handleClose={close}></Modal>}
+                    <AnimatePresence
+                        initial={false}
+                        exitBeforeEnter={true}
+                        onExitComplete={() => null}
+                    >
+                        {modalOpen && <Modal modalOpen={modalOpen} handleClose={close}></Modal>}
+                    </AnimatePresence>
                     <motion.button
                         className = "project-button"
                         whileHover={{

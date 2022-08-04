@@ -11,7 +11,8 @@ const slideOut = {
         x: 0,
         transition: {
             duration: 0.5,
-            ease: 'easeInOut'
+            type: 'spring',
+            damping: 25
         }
     },
     exit: {
