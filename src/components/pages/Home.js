@@ -1,11 +1,17 @@
-import React from 'react';
-import {motion} from 'framer-motion';
+import React, {useState} from 'react';
+import {motion, AnimatePresence} from 'framer-motion';
 import '../CSS/home.css';
 import bg from '../assets/bg.svg';
 import wy from '../assets/wy.svg';
 import Carousel from '../elements/carousel';
+import Modal from '../elements/modal';
 
 export default function Home() {
+
+    const [modalOpen, setModalOpen] = useState(false)
+    const close = () => setModalOpen(false)
+    const open = () => setModalOpen(true)
+
     return (
         <>
             <div className="parallax-wrapper">
@@ -50,13 +56,14 @@ export default function Home() {
                                 ease: "easeInOut"
                             }
                         }}
-                        onClick={() => null}
+                        onClick={() => (modalOpen ? close() : open())}
                     >
                         <h4 className='project-title'>Parallax Gallery</h4>
                         <p className='project-description'>
                         Parallax Gallery is a simple gallery that uses parallax scrolling to create a 3D effect.
                         </p>
                     </motion.button>
+                    {modalOpen && <Modal modalOpen={modalOpen} handleClose={close}></Modal>}
                     <motion.button
                         className = "project-button"
                         whileHover={{
