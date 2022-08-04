@@ -1,4 +1,5 @@
 import {motion} from 'framer-motion';
+import Modal from '../elements/modal';
 
 
 export default function SlideOut(){

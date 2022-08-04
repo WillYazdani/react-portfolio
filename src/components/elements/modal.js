@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion';
 import slideOut from '../elements/slideOut';
 
-export default function Modal(){
+export default function Modal({handleClose}){
     return(
         <motion.div
             className="modal"
@@ -30,9 +30,9 @@ export default function Modal(){
                         }}
                         // close modal on click
                         
-                        onClick={() => null}
+                        onClick={handleClose}
                     >
-                        Sample
+                        Close
                     </motion.button>
                 </motion.div>
                 <motion.div className="modal-body">
