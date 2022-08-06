@@ -131,6 +131,19 @@ h3 {
   line-height: 1.5rem;
 }
 
+.modal {
+  background: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.modal-title {
+  color: black;
+}
+
+.modal-body {
+  color: black;
+}
+
 .contact-wrapper {
   scroll-snap-align: start;
   height: 100vh;

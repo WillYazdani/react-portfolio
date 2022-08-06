@@ -11,8 +11,7 @@ export default function Modal({handleClose}){
             transition={{duration: 0.5}}
         >
             <motion.div className="modal-content">
-                <motion.div className="modal-header">
-                    <h2>Modal Header</h2>
+                    <h2 className='modal-title'>Modal Header</h2>
                     <motion.button
                         whileHover={{
                             scale: 1.05,
@@ -35,7 +34,6 @@ export default function Modal({handleClose}){
                     >
                         Close
                     </motion.button>
-                </motion.div>
                 <motion.div className="modal-body">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
