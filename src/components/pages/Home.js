@@ -38,84 +38,90 @@ export default function Home() {
                 {/* PROJECTS SECTION */}
                 
                 <section className='projects'>
-                    <h3>02.Projects</h3>
 
-                    <motion.button
-                        className = "project-button"
-                        whileHover={{
-                            scale: 1.05,
-                            transition: {
-                                duration: 0.2,
-                                ease: "easeInOut"
-                            }
-                        }}
-                        whileTap={{
-                            scale: 0.95,
-                            transition: {
-                                duration: 0.2,
-                                ease: "easeInOut"
-                            }
-                        }}
-                        onClick={() => (modalOpen ? close() : open())}
-                    >
-                        <h4 className='project-title'>Parallax Gallery</h4>
-                        <p className='project-description'>
-                        Parallax Gallery is a simple gallery that uses parallax scrolling to create a 3D effect.
-                        </p>
-                    </motion.button>
-                    <AnimatePresence
+                <AnimatePresence
                         initial={false}
                         exitBeforeEnter={true}
                         onExitComplete={() => null}
                     >
                         {modalOpen && <Modal modalOpen={modalOpen} handleClose={close}></Modal>}
                     </AnimatePresence>
-                    <motion.button
-                        className = "project-button"
-                        whileHover={{
-                            scale: 1.05,
-                            transition: {
-                                duration: 0.2,
-                                ease: "easeInOut"
-                            }
-                        }}
-                        whileTap={{
-                            scale: 0.95,
-                            transition: {
-                                duration: 0.2,
-                                ease: "easeInOut"
-                            }
-                        }}
-                        onClick={() => null}
-                    >
-                        <h4 className='project-title'>ReactJack</h4>
-                        <p className='project-description'>
-                        Learn to play BlackJack with this fully functional online version.
-                        </p>
-                    </motion.button>
-                    <motion.button
-                        className = "project-button"
-                        whileHover={{
-                            scale: 1.05,
-                            transition: {
-                                duration: 0.2,
-                                ease: "easeInOut"
-                            }
-                        }}
-                        whileTap={{
-                            scale: 0.95,
-                            transition: {
-                                duration: 0.2,
-                                ease: "easeInOut"
-                            }
-                        }}
-                        onClick={() => null}
-                    >
-                        <h4 className='project-title'>Mental Health Check</h4>
-                        <p className='project-description'>
-                        This app provides the user with a quick and easy way to evaluate their mental health and gives them resources to help their current situation.
-                        </p>
-                    </motion.button>
+
+                    <div className='projects-container'>
+
+                    <h3>02.Projects</h3>
+
+                        <motion.button
+                            className = "project-button"
+                            whileHover={{
+                                scale: 1.05,
+                                transition: {
+                                    duration: 0.2,
+                                    ease: "easeInOut"
+                                }
+                            }}
+                            whileTap={{
+                                scale: 0.95,
+                                transition: {
+                                    duration: 0.2,
+                                    ease: "easeInOut"
+                                }
+                            }}
+                            onClick={() => (modalOpen ? close() : open())}
+                        >
+                            <h4 className='project-title'>Parallax Gallery</h4>
+                            <p className='project-description'>
+                            Parallax Gallery is a simple gallery that uses parallax scrolling to create a 3D effect.
+                            </p>
+                        </motion.button>
+                        <motion.button
+                            className = "project-button"
+                            whileHover={{
+                                scale: 1.05,
+                                transition: {
+                                    duration: 0.2,
+                                    ease: "easeInOut"
+                                }
+                            }}
+                            whileTap={{
+                                scale: 0.95,
+                                transition: {
+                                    duration: 0.2,
+                                    ease: "easeInOut"
+                                }
+                            }}
+                            onClick={() => null}
+                        >
+                            <h4 className='project-title'>ReactJack</h4>
+                            <p className='project-description'>
+                            Learn to play BlackJack with this fully functional online version.
+                            </p>
+                        </motion.button>
+                        <motion.button
+                            className = "project-button"
+                            whileHover={{
+                                scale: 1.05,
+                                transition: {
+                                    duration: 0.2,
+                                    ease: "easeInOut"
+                                }
+                            }}
+                            whileTap={{
+                                scale: 0.95,
+                                transition: {
+                                    duration: 0.2,
+                                    ease: "easeInOut"
+                                }
+                            }}
+                            onClick={() => null}
+                        >
+                            <h4 className='project-title'>Mental Health Check</h4>
+                            <p className='project-description'>
+                            This app provides the user with a quick and easy way to evaluate their mental health and gives them resources to help their current situation.
+                            </p>
+                        </motion.button>
+                    
+                    </div>
 
                 </section>
                 

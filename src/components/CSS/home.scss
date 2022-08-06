@@ -105,7 +105,12 @@ h3 {
 .projects {
     scroll-snap-align: start;
     height: 100vh;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.projects-container {
+    transform: translateY(2rem);
 }
 
 .project-button {
@@ -140,7 +145,14 @@ h3 {
 
 .modal {
     background: rgba(255, 255, 255);
-    padding: 1rem;
+    padding: 2rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    
+    
 }
 
 .modal-title {
