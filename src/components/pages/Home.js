@@ -39,7 +39,9 @@ export default function Home() {
                 
                 <section className='projects'>
 
-                <AnimatePresence
+                    {/* MODALS */}
+
+                    <AnimatePresence
                         initial={false}
                         exitBeforeEnter={true}
                         onExitComplete={() => null}
@@ -49,7 +51,7 @@ export default function Home() {
 
                     <div className='projects-container'>
 
-                    <h3>02.Projects</h3>
+                        <h3>02.Projects</h3>
 
                         <motion.button
                             className = "project-button"

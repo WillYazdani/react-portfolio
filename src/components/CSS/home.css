@@ -148,10 +148,36 @@ h3 {
 
 .modal-title {
   color: black;
+  font-size: 2rem;
+}
+
+.tech {
+  color: black;
+  font-size: 1.5rem;
 }
 
 .modal-body {
   color: black;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  border: 0;
+  background: none;
+  letter-spacing: 0.25rem;
+}
+
+.project-links {
+  color: black;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding-right: 2rem;
 }
 
 .contact-wrapper {
