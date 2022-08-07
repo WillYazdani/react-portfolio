@@ -5,12 +5,24 @@ import bg from '../assets/bg.svg';
 import wy from '../assets/wy.svg';
 import Carousel from '../elements/carousel';
 import Modal from '../elements/modal';
+import Modal2 from '../elements/modal2';
+import Modal3 from '../elements/modal3';
 
 export default function Home() {
+
+    // SETTING MODALS
 
     const [modalOpen, setModalOpen] = useState(false)
     const close = () => setModalOpen(false)
     const open = () => setModalOpen(true)
+
+    const [modalOpen2, setModalOpen2] = useState(false)
+    const close2 = () => setModalOpen2(false)
+    const open2 = () => setModalOpen2(true)
+
+    const [modalOpen3, setModalOpen3] = useState(false)
+    const close3 = () => setModalOpen3(false)
+    const open3 = () => setModalOpen3(true)
 
     return (
         <>
@@ -47,6 +59,22 @@ export default function Home() {
                         onExitComplete={() => null}
                     >
                         {modalOpen && <Modal modalOpen={modalOpen} handleClose={close}></Modal>}
+                    </AnimatePresence>
+
+                    <AnimatePresence
+                        initial={false}
+                        exitBeforeEnter={true}
+                        onExitComplete={() => null}
+                    >
+                        {modalOpen2 && <Modal2 modalOpen={modalOpen2} handleClose={close2}></Modal2>}
+                    </AnimatePresence>
+
+                    <AnimatePresence
+                        initial={false}
+                        exitBeforeEnter={true}
+                        onExitComplete={() => null}
+                    >
+                        {modalOpen3 && <Modal3 modalOpen={modalOpen3} handleClose={close3}></Modal3>}
                     </AnimatePresence>
 
                     <div className='projects-container'>
@@ -92,7 +120,7 @@ export default function Home() {
                                     ease: "easeInOut"
                                 }
                             }}
-                            onClick={() => null}
+                            onClick={() => (modalOpen2 ? close2() : open2())}
                         >
                             <h4 className='project-title'>ReactJack</h4>
                             <p className='project-description'>
@@ -115,7 +143,7 @@ export default function Home() {
                                     ease: "easeInOut"
                                 }
                             }}
-                            onClick={() => null}
+                            onClick={() => (modalOpen3 ? close3() : open3())}
                         >
                             <h4 className='project-title'>Mental Health Check</h4>
                             <p className='project-description'>
