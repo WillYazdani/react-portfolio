@@ -160,7 +160,7 @@ h3 {
     font-size: 2rem;
 }
 
-.tech {
+.modal-tech {
     color: black;
     font-size: 1.5rem;
 }
@@ -314,11 +314,11 @@ h3 {
         display: flex;
         flex-direction: column;
     }
-    .project-card {
+    .project-button {
         font-size: .75rem;
         padding: 1rem;
     }
-    .project-card h4 {
+    .project-title {
         font-size: 1rem;
     }
     .contact-wrapper {
@@ -353,11 +353,19 @@ h3 {
         display: flex;
         flex-direction: column;
     }
-    .project-card {
+    .project-description {
         font-size: .75rem;
-        padding: .5rem;
     }
-    .project-card h4 {
+    .modal-title {
+        font-size: 1.5rem;
+    }
+    .modal-tech {
+        font-size: 1rem;
+    }
+    .modal-body {
+        font-size: .75rem;
+    }
+    .modal-close {
         font-size: 1rem;
     }
     .contact-wrapper {

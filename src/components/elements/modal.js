@@ -35,7 +35,7 @@ export default function Modal({handleClose}){
             </motion.button>
             <motion.div className="modal-content">
                     <h2 className='modal-title'>Parallax Gallery</h2>
-                    <h3 className='tech'>
+                    <h3 className='modal-tech'>
                         Technologies: HTML, CSS, Sass, React<br/>
                         Roll: Solo Developer
                     </h3>
