@@ -36,8 +36,8 @@ export default function Modal({handleClose}){
             <motion.div className="modal-content">
                     <h2 className='modal-title'>Mental Health Check</h2>
                     <h3 className='modal-tech'>
-                        Technologies: HTML, CSS, Sass, React<br/>
-                        Roll: Solo Developer
+                        Technologies: HTML, CSS, JavaScript, React, MongoDB, Express<br/>
+                        Roll: Front-end Developer
                     </h3>
                 <motion.div className="modal-body">
                     <p>
@@ -45,8 +45,8 @@ export default function Modal({handleClose}){
                         <br/><br/>
                         This is a gallery built in react that uses parallax to make the images have a 3D effect. Hover over the images to see the effect. All photos are taken and edited by myself.
                     </p>
-                    <a className='project-links' href='https://github.com/WillYazdani'>Live Demo</a>
-                    <a className='project-links' href='https://github.com/WillYazdani'>Github</a>
+                    <a className='project-links' href='https://mh-check.herokuapp.com/'>Live App</a>
+                    <a className='project-links' href='https://github.com/WillYazdani/mental-health-check'>Github</a>
                 </motion.div>
             </motion.div>
         </motion.div>

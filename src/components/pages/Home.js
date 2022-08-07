@@ -122,7 +122,7 @@ export default function Home() {
                             }}
                             onClick={() => (modalOpen2 ? close2() : open2())}
                         >
-                            <h4 className='project-title'>ReactJack</h4>
+                            <h4 className='project-title'>FullStack Jack</h4>
                             <p className='project-description'>
                             Learn to play BlackJack with this fully functional online version.
                             </p>

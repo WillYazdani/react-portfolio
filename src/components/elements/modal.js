@@ -45,7 +45,7 @@ export default function Modal({handleClose}){
                         <br/><br/>
                         This is a gallery built in react that uses parallax to make the images have a 3D effect. Hover over the images to see the effect. All photos are taken and edited by myself.
                     </p>
-                    <a className='project-links' href='https://github.com/WillYazdani'>Live Demo</a>
+                    <a className='project-links' href='https://github.com/WillYazdani'>Live App</a>
                     <a className='project-links' href='https://github.com/WillYazdani'>Github</a>
                 </motion.div>
             </motion.div>
