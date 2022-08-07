@@ -41,9 +41,7 @@ export default function Modal({handleClose}){
                     </h3>
                 <motion.div className="modal-body">
                     <p>
-                        I always wondered when I was taking photos how I could capture more informormation with a single image. If only I could make the view feel as if they were actually in the scene. I stumbled upon a really cool parallax scrolling effect on a website that make me think that I could actually take my photos to the next level and achieve what I had previously dreamed of.
-                        <br/><br/>
-                        This is a gallery built in react that uses parallax to make the images have a 3D effect. Hover over the images to see the effect. All photos are taken and edited by myself.
+                    A mental health quiz app that helps users track their moods using standardized screening tests. Mental Health Check tests users with multiple quiz options to help users understand and identify their feelings. The app is a Progressive Web Application including the ability to take and save quiz results offline. The application uses a React.js front-end with MongoDB and Express.js running the back-end and Node.js as the package manager.
                     </p>
                     <a className='project-links' href='https://mh-check.herokuapp.com/'>Live App</a>
                     <a className='project-links' href='https://github.com/WillYazdani/mental-health-check'>Github</a>
