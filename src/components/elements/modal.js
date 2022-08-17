@@ -44,9 +44,10 @@ export default function Modal({handleClose}){
                         I always wondered when I was taking photos how I could capture more informormation with a single image. If only I could make the view feel as if they were actually in the scene. I stumbled upon a really cool parallax scrolling effect on a website that make me think that I could actually take my photos to the next level and achieve what I had previously dreamed of.
                         <br/><br/>
                         This is a gallery built in react that uses parallax to make the images have a 3D effect. Hover over the images to see the effect. All photos are taken and edited by myself.
+                        <br/><br/>
+                        App is still in development, prototype will be available soon!
                     </p>
-                    <a className='project-links' href='https://github.com/WillYazdani'>Live App</a>
-                    <a className='project-links' href='https://github.com/WillYazdani'>Github</a>
+                    <a className='project-links' href='https://github.com/WillYazdani/parallax-gallery'>Github</a>
                 </motion.div>
             </motion.div>
         </motion.div>
